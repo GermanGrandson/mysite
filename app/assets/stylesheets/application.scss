@@ -1,0 +1,115 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body{
+  background-size: cover;
+   background-image: image-url('graffiti.jpg');
+}
+
+
+.circular{
+  background: url(goodlookin.jpg) no-repeat;
+  background-position: center;
+  width: 500px;
+	height: 500px;
+  margin-left: 30px;
+  background-size: cover;
+	border-radius:100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.contact-logos{
+  font-size: 60px;
+  margin-left: -27px;
+}
+
+
+// .row{
+//   margin-top: 30px;
+//   margin-bottom: 30px;
+// }
+
+.about-me{
+  font-size: 25px;
+  color: white;
+}
+
+.games{
+  // margin-top: 30px;
+  // margin-bottom: 30px;
+}
+
+.fa{
+  font-size: 60px;
+  // text-align: center;
+}
+
+// .contact-me{
+//   margin-top: 20px;
+// }
+
+// .logos{
+//   text-align: center;
+//
+// }
+
+#welcome{
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  font-size: 35px;
+}
+
+a{
+  color:white;
+}
+
+a:hover{
+  color: blue;
+}
+
+.number{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+#border{
+  // text-align: justify;
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#thestory{
+  color:black;
+  text-align: justify;
+  font-family: 'Questrial', sans-serif;
+}
+
+#paragraph{
+  background-color: white;
+  border-radius: 9px;
+}
+
+#Rails{
+  width:70px;
+  height:60px;
+}
+
+.fa{
+  margin-left: 30px;
+}
+
+.logos{
+  margin-left: 66px;
+}
