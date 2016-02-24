@@ -1,11 +1,15 @@
 <div class='container-fluid'>
     <div class='row'>
       <div class='col-xs-3 col-md-3'></div>
-        <div class ='col-xs-9 col-md-8'>
-            <h1 id='welcome'>&lt;Hello-World!/&gt;</h1>
+        <div class ='col-xs-9 col-md-9'>
+            <span id='welcome'></span>
+            <!-- <h1 id='welcome'>&lt;Hello-World!/&gt;</h1> -->
+
+            <!-- <span id='hi'></span> -->
         </div>
     </div>
 </div>
+
 
 
 
@@ -69,15 +73,18 @@
         <div class='col-xs-2 col-md-2'></div>
             <div class='col-xs-9 col-md-8'>
                 <div id=paragraph>
-                <p id='thestory'>My name is German Antonio Nieto and I'm a Software
-                  Developer. I’m a graduate of Wyncode Academy, an intense 9-week computer
-                  programming boot camp where I learned the skills necessary to become a
-                  Full Stack Web Developer. During my time at Wyncode I learned invaluable
-                  knowledge and successfully developed numerous working Web
-                Applications. I have a passion for Software Development and I'm extremely hungry to keep learning!
-                  I'm currently located in Sunny South Florida but am attempting to
-                  relocate back up to New York City. If you know of any opportunites
-                  please feel free to reach out :)</p>
+                <p id='thestory'>
+
+
+                  My name is German Antonio Nieto and I'm a Full Stack Software
+                  Developer. I'm a graduate of Wyncode Academy and I'm currently looking
+                  for opportunities in the NYC area. I may not know the answer to everything,
+                  but when I don’t I am not afraid to admit it and will then look for
+                  the solution. I have a passion for Software Development and
+                  I'm extremely hungry to keep learning! Feel free to explore my
+                  projects and reach out!
+
+                  </p>
                 </div>
             </div>
               <div class='col-xs-1 col-md-1'>
@@ -91,7 +98,9 @@
     <div class='row'>
       <div class='col-xs-3 col-md-3'></div>
         <div class='col-xs-9 col-md-8'>
+          <div class='if'>
           <h1 id='border'>IF YOU BUILD IT, THEY WILL COME...</h1>
+        </div>
         </div>
             <div class='col-xs-0 col-md-1'>
             </div>
@@ -107,38 +116,43 @@
           <ia class='fa fa-glass'></ia>
           <h1 id='border'>TRNDI</h1></a>
         </div>
+        <div class='col-xs-3 col-md-3'>
+          <a href = 'http://wynworld.herokuapp.com' target='blank'>
+            <i class="fa fa-globe"></i>
+            <h2 id='border'>WynWorld</h2></a>
+        </div>
             <div class='col-xs-3 col-md-3'>
               <a href = 'http://tindcat.co' target='_blank'>
                 <i class="fa fa-paw"></i>
               <h2 id='border'>TindCat</h2></a>
           </div>
-              <div class='col-xs-3 col-md-3'>
-                <a href = 'https://github.com/GermanGrandson/Voter-Sim' target='_blank'>
-                <i class="fa fa-flag-o"></i>
-                <h2 id='border'>Voter Simulation</h2></a>
-              </div>
       </div>
   </div>
 </div>
 
 <div class='container-fluid'>
     <div class='row'>
+      <div class='games'>
       <div class='col-xs-2 col-md-2'></div>
+      <div class='col-xs-3 col-md-3'>
+      <a href = 'http://github.com/germangrandson/tictothetoe' target='_blank'>
+      <i class="fa fa-slack"></i>
+      <h2 id='border'>Tic 2 The Toe</h2></a>
+      </div>
+
+      <div class='col-xs-3 col-md-3'>
+        <a href = 'https://github.com/GermanGrandson/Voter-Sim' target='_blank'>
+        <i class="fa fa-flag-o"></i>
+        <h2 id='border'>Voter Sim</h2></a>
+      </div>
+
         <div class='col-xs-3 col-md-3'>
           <a href = 'http://straingth.herokuapp.com' target='_blank'>
           <i class="fa fa-heartbeat"></i>
           <h2 id='border'>STRAINgth</h2></a>
         </div>
-        <div class='col-xs-3 col-md-3'>
-        </div>
-            <div class='col-xs-3 col-md-3'>
-            <a href = 'http://github.com/germangrandson/tictothetoe' target='_blank'>
-            <i class="fa fa-slack"></i>
-            <h2 id='border'>Tic Tac Toe</h2></a>
-            </div>
-              <div class='col-xs-3 col-md-3'>
-              </div>
-</div>
+      </div>
+    </div>
 </div>
 
 
@@ -157,20 +171,16 @@
 <script src="jquery.js"></script>
 <script src="typed.js"></script>
 <script>
-  $(function(){
-      $("#yo").typed({
-        strings: ["First sentence.", "Second sentence."],
-        typeSpeed: 0
-      });
+  $(function typed(){
+    // var i = 0;
+    // while (i<30){
+      $("#welcome").typed({
+          strings: ["&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000", "&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000","&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000","&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000","&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000", ],
+          typespeed: 0
+        });
+        // i++;
+        // console.log(i);
+    // };
   });
-</script>
 
-<script>
-    // $(document).ready(function(){
-    //     $("#welcome").animate({left:'240px'});
-    // });
-
-    // $("#click").click(function() {
-    //     $("#welcome").animate({left:'0'}, 'fast');
-    // });
 </script>
