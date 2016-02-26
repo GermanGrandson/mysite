@@ -80,8 +80,10 @@ a{
   color:white;
 }
 
+
+
 a:hover{
-  color: blue;
+  color: firebrick;
 }
 
 .number{
@@ -107,13 +109,18 @@ a:hover{
 }
 
 #thestory{
-  color:black;
+  color:white;
   text-align: justify;
   font-family: 'Questrial', sans-serif;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
 #paragraph{
-  background-color: white;
+  background-color: firebrick;
   border-radius: 9px;
 }
 
@@ -140,6 +147,10 @@ a:hover{
 }
 
 a.webapp {text-decoration: none; }
+
+a.chick:hover{
+  color:teal;
+}
 
 // Typed.js
 .typed-cursor{
