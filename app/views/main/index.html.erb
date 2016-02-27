@@ -2,7 +2,7 @@
     <div class='row'>
       <div class='col-xs-2 col-md-3'></div>
         <div class ='col-xs-9 col-md-9'>
-            <span id='welcome'></span>
+            <span id='welcome'></span><br>
             <!-- <h1 id='welcome'>&lt;Hello-World!/&gt;</h1> -->
 
             <!-- <span id='hi'></span> -->
@@ -174,13 +174,18 @@
   $(function typed(){
     // var i = 0;
     // while (i<30){
+    setTimeout(function(){
       $("#welcome").typed({
-          strings: ["&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000", "&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000","&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000","&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000","&lt;Hello World!/&gt; ^3000" , "My Name is German ^3000", ],
+
+          strings: ["&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000", "&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000", "&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000", "&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000"  ],
           typespeed: 0
         });
+    },2000);
+
         // i++;
         // console.log(i);
     // };
+
   });
 
 </script>
