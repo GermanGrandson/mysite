@@ -8,6 +8,13 @@ body{
    background-repeat: no-repeat;
 }
 
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #79BD9A;
+    text-decoration: none;
+    color: white;
+}
 
 .circular{
   // background: url(goodlookin.jpg) no-repeat;
@@ -146,7 +153,54 @@ a:hover{
   color: white;
 }
 
+.webapp{
+  opacity: 0;
+}
+
+.webapp1{
+  opacity: 0;
+}
+
+.webapp2{
+  opacity: 0;
+}
+
+.webapp3{
+  opacity: 0;
+}
+
+.webapp4{
+  opacity: 0;
+}
+
+.webapp5{
+  opacity: 0;
+}
+
+.webapp6{
+  opacity: 0;
+}
+
+.webapp7{
+  opacity: 0;
+}
+
+.webapp-fixed{
+  opacity:1;
+  -moz-transition: opacity 2s; /* Firefox 4 */
+-webkit-transition: opacity 2s; /* Safari and Chrome */
+-o-transition: opacity 2s;
+transition: opacity 2s;
+}
+
 a.webapp {text-decoration: none; }
+a.webapp2 {text-decoration: none; }
+a.webapp3 {text-decoration: none; }
+a.webapp4 {text-decoration: none; }
+a.webapp5 {text-decoration: none; }
+a.webapp6 {text-decoration: none; }
+a.webapp7 {text-decoration: none; }
+a.webapp1 {text-decoration: none; }
 
 a.chick:hover{
   color:teal;

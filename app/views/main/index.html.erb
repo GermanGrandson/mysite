@@ -3,14 +3,9 @@
       <div class='col-xs-2 col-md-3'></div>
         <div class ='col-xs-9 col-md-9'>
             <span id='welcome'></span><br>
-            <!-- <h1 id='welcome'>&lt;Hello-World!/&gt;</h1> -->
-
-            <!-- <span id='hi'></span> -->
         </div>
     </div>
 </div>
-
-
 
 
 <div class='container-fluid'>
@@ -19,13 +14,13 @@
           <div class='col-xs-6 col-md-7'>
             <div class ='contact-logos'>
                 <a href = 'http://www.github.com/GermanGrandson' class='chick' target='_blank'>
-              <i class="fa fa-github-alt"></i></a>
+              <i class="fa fa-github-alt hvr-buzz"></i></a>
               <a href = 'http://www.twitter.com/GermanGrandson' class='chick' target='_blank'>
-              <i class="fa fa-twitter"></i></a>
+              <i class="fa fa-twitter hvr-skew-backward"></i></a>
             <a href = 'https://www.linkedin.com/in/germananieto' class='chick' target='_blank'>
-              <i class="fa fa-linkedin-square"></i></a>
+              <i class="fa fa-linkedin-square hvr-skew-forward"></i></a>
             <a href = 'mailto:ganieto1@gmail.com' class='chick' target='_blank'>
-              <i class="fa fa-envelope-o"></i></a>
+              <i class="fa fa-envelope-o hvr-buzz"></i></a>
             </div>
                 <div class='col-xs-2 col-md-1'>
                 </div>
@@ -113,22 +108,22 @@
       <div class='col-xs-2 col-md-2'></div>
         <div class="col-xs-2 col-md-2">
           <a href = 'http://www.trndi.co' class='webapp' target='_blank'>
-          <ia class='fa fa-glass'></ia>
+          <ia class='fa fa-glass hvr-wobble-bottom'></ia>
           <h1 id='border'>TRNDI</h1></a>
         </div>
         <div class='col-xs-2 col-md-2'>
-          <a href = 'http://wynworld.herokuapp.com' class='webapp' target='blank'>
-            <i class="fa fa-globe"></i>
+          <a href = 'http://wynworld.herokuapp.com' class='webapp1' target='blank'>
+            <i class="fa fa-globe hvr-buzz-out"></i>
             <h2 id='border'>WynWorld</h2></a>
         </div>
             <div class='col-xs-2 col-md-2'>
-              <a href = 'http://tindcat.co' class='webapp' target='_blank'>
-                <i class="fa fa-paw"></i>
+              <a href = 'http://tindcat.co' class='webapp2' target='_blank'>
+                <i class="fa fa-paw hvr-bounce-out"></i>
               <h2 id='border'>TindCat</h2></a>
           </div>
           <div class='col-xs-2 col-md-2'>
-            <a href = 'http://pedroskitchen.herokuapp.com' class='webapp' target='_blank'>
-              <i class="fa fa-cutlery" aria-hidden="true"></i>
+            <a href = 'http://pedroskitchen.herokuapp.com' class='webapp3' target='_blank'>
+              <i class="fa fa-cutlery hvr-wobble-top" aria-hidden="true"></i>
             <h2 id='border'>Pedro's Kitchen</h2></a>
         </div>
       </div>
@@ -140,22 +135,29 @@
       <div class='games'>
       <div class='col-xs-2 col-md-2'></div>
       <div class='col-xs-2 col-md-2'>
-      <a href = 'http://github.com/germangrandson/tictothetoe'  class='webapp' target='_blank'>
-      <i class="fa fa-slack"></i>
+      <a href = 'http://github.com/germangrandson/tictothetoe'  class='webapp4' target='_blank'>
+      <i class="fa fa-slack hvr-wobble-to-bottom-right"></i>
       <h2 id='border'>Tic 2 Toe</h2></a>
       </div>
 
       <div class='col-xs-2 col-md-2'>
-        <a href = 'https://github.com/GermanGrandson/Voter-Sim' class='webapp' target='_blank'>
-        <i class="fa fa-flag-o"></i>
+        <a href = 'https://github.com/GermanGrandson/Voter-Sim' class='webapp5' target='_blank'>
+        <i class="fa fa-flag-o hvr-bounce-in"></i>
         <h2 id='border'>Voter Sim</h2></a>
       </div>
 
         <div class='col-xs-2 col-md-2'>
-          <a href = 'http://straingth.herokuapp.com' class='webapp' target='_blank'>
-          <i class="fa fa-heartbeat"></i>
+          <a href = 'http://straingth.herokuapp.com' class='webapp6' target='_blank'>
+          <i class="fa fa-heartbeat hvr-float"></i>
           <h2 id='border'>STRAINgth</h2></a>
         </div>
+
+        <div class='col-xs-2 col-md-2'>
+          <a href = 'http://verbalvisualgerman.herokuapp.com' class='webapp7' target='_blank'>
+          <i class="fa fa-shopping-cart hvr-wobble-to-top-right"></i>
+          <h2 id='border'>ABC Create</h2></a>
+        </div>
+
       </div>
     </div>
 </div>
@@ -170,27 +172,80 @@
 </div>
 
 
-
-
-
-<script src="jquery.js"></script>
-<script src="typed.js"></script>
 <script>
   $(function typed(){
-    // var i = 0;
-    // while (i<30){
     setTimeout(function(){
       $("#welcome").typed({
-
           strings: ["&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000", "&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000", "&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000", "&lt;Hello World!/&gt; ^3000", "My Name is German ^3000", "Welcome To My Site ^3000"  ],
           typespeed: 0
         });
     },2000);
-
-        // i++;
-        // console.log(i);
-    // };
-
   });
+</script>
 
+<script>
+$(document).ready(function() {
+
+  $(window).scroll(function () {
+    // var a = 3;
+      console.log($(window).scrollTop())
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $('.img').css("opacity", "1")
+      }
+    if ($(window).scrollTop() > 550) {
+          $('.webapp').addClass('webapp-fixed')
+          $(function(){
+            setTimeout(function(){
+              $('.webapp1').addClass('webapp-fixed')
+            },300);
+        });
+
+          $(function(){
+            setTimeout(function(){
+              $('.webapp2').addClass('webapp-fixed')
+            },600);
+        });
+
+          $(function(){
+            setTimeout(function(){
+              $('.webapp3').addClass('webapp-fixed')
+            },900);
+        });
+
+            $(function(){
+              setTimeout(function(){
+                $('.webapp4').addClass('webapp-fixed')
+              },1200);
+          });
+
+            $(function(){
+              setTimeout(function(){
+                $('.webapp5').addClass('webapp-fixed')
+              },1500);
+          });
+
+            $(function(){
+              setTimeout(function(){
+                $('.webapp6').addClass('webapp-fixed')
+              },1800);
+          });
+
+            $(function(){
+              setTimeout(function(){
+                $('.webapp7').addClass('webapp-fixed')
+              },2100);
+          });
+    }
+    if ($(window).scrollTop() < 350) {
+      $('.webapp').removeClass('webapp-fixed')
+      $('.webapp1').removeClass('webapp-fixed')
+      $('.webapp2').removeClass('webapp-fixed')
+      $('.webapp3').removeClass('webapp-fixed')
+      $('.webapp4').removeClass('webapp-fixed')
+      $('.webapp5').removeClass('webapp-fixed')
+      $('.webapp6').removeClass('webapp-fixed')
+      $('.webapp7').removeClass('webapp-fixed')
+    }
+  });
+});
 </script>
